@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+    background: black;
+    color: white;
+}
+
+#tilt {
+    display: block;
+    height: 200px;
+    width: 300px;
+    background-color: grey;
+    margin: 0 auto;
+    transition: box-shadow .1s transform .1s;
+    background: linear-gradient(45deg, deepskyblue, deeppink);
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
